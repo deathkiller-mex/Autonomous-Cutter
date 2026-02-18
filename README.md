@@ -29,7 +29,7 @@ This project consists of an affordable autonomous weed/grass cutter. It will be 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# Other parts:
+# Other parts pic:
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -53,3 +53,4 @@ This project consists of an affordable autonomous weed/grass cutter. It will be 
 |IR LED|1|$5|adasdsd|
 |IR Receiver|1|$5|adasdsd|
 |RADAR|1|$5|adasdsd|
+|40A fuse|1|$2|asioadjo|
