@@ -34,3 +34,22 @@ This project consists of an affordable autonomous weed/grass cutter. It will be 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # BOM: 
+
+|Part|Amount|Price|Link|
+|:------------:|:----:|:---:|:--:|
+|DC Motor 12V 5kg torque|1|$20|adasdsd|
+|DC Motor 12V 80000RPM |1|$20|adasdsd|
+|Metal Servo torque 5kg|1|$20|adasdsd|
+|Metal Rod|1|$5|adasdsd|
+|DRV|1|$5|adasdsd|
+|DRV|1|$5|adasdsd|
+|Battery 12V|1|$5|adasdsd|
+|Arduino UNO|1|$5|adasdsd|
+|Screw Set M2-M3|1|$5|adasdsd|
+|Threaded insert set M2-M3|1|$5|adasdsd|
+|Wheels|1|$5|adasdsd|
+|DC-DC buck converter|1|$5|adasdsd|
+|Metal string|1|$5|adasdsd|
+|IR LED|1|$5|adasdsd|
+|IR Receiver|1|$5|adasdsd|
+|RADAR|1|$5|adasdsd|
