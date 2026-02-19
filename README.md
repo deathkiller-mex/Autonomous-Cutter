@@ -22,14 +22,20 @@ National Institutes of Health. (n.d.). Health effects of lawn care pesticides. h
 
 # Building
 
-This project consists of an affordable autonomous weed/grass cutter. It will be controlled/limited by IR sensors as well as ultrasonic sensors to designate a specific cutting area, as well as to detect obstacles. Everything will be 3D printed except for, obviously, the electronic components and wheel rod. Gears will be 3D printed too, but may be made out of metal on a future if they are not durable or reliable. I recommend using at least PETG or something with more structural strength, as well as heat and cold resistance, as the robot will be outside. For the blades, I will start trying out how metal strings work instead of the common plastic ones, but if they prove unsafe, unreliable, etc. i will change them to plastic
+This project consists of an affordable autonomous weed/grass cutter. It will be controlled/limited by IR sensors as well as ultrasonic sensors to designate a specific cutting area, as well as to detect obstacles. Everything will be 3D printed except for, obviously, the electronic components and wheel rod. Gears will be 3D printed too, but may be made out of metal in the future if they are not durable or reliable. I recommend using at least PETG or something with more structural strength, as well as heat and cold resistance, as the robot will be outside. For the blades, I will start trying out how metal strings work instead of the common plastic ones, but if they prove unsafe, unreliable, etc. i will change them to plastic
+This robot will be able to cut through grass and weeds easily, with almost no human interaction required, using the main sensor, a RADAR (HLK-LD2410) to detect obstacles and walls while using 2 IR detectors (one on each side) to set a boundary preventing the robot from crossing it.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Full Assembly:
 
+<img width="370" height="296" alt="Full Assembly" src="https://github.com/user-attachments/assets/70cddd2e-db3a-4946-b3c6-14ae653a5b2b" />
+<img width="387" height="298" alt="bottom " src="https://github.com/user-attachments/assets/eead95da-fc34-4b2a-9953-bb3b81a748b7" />
+<img width="401" height="277" alt="no front lid" src="https://github.com/user-attachments/assets/e2861dfe-b36e-4c37-adfd-84963e5aba95" />
+
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# Other parts pic:
+# Schematics:
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
