@@ -41,6 +41,9 @@ This robot will be able to cut through grass and weeds easily, with almost no hu
 
 # Schematics:
 
+<img width="503" height="358" alt="schematic" src="https://github.com/user-attachments/assets/3daefbac-f020-4b48-a2dc-dec598d75938" />
+
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # BOM: 
