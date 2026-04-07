@@ -1,0 +1,184 @@
+//Libraries
+#include <Servo.h>
+#include <SoftwareSerial.h>
+#include <MyLD2410.h>
+
+
+//servo 
+Servo steeringServo;
+int pos = 0; //position of servo
+
+//RADAR
+
+
+const int EN = 8; // Enable (drive)
+const int RPWM = 9; // Forward
+const int LPWM = 8; //Backward 
+const int IRS = A0; // Current sensor
+const int cut = 10; // Blade motor
+const int IR = 2; //  IR sensors
+const int RADR = 3; // RADAR
+const int RADT = 4 ; // RADAR
+SoftwareSerial radarSerial(3,4);
+MyLD2410 radar(radarSerial);
+
+
+void setup() {
+
+//Motors
+pinMode(LPWM,OUTPUT);
+pinMode(RPWM,OUTPUT);
+pinMode(EN,OUTPUT);
+pinMode(cut,OUTPUT);
+steeringServo.attach(11); 
+
+
+//Sensors 
+pinMode(IR,INPUT);
+pinMode(IRS,INPUT);
+Serial.begin(9600);
+radarSerial.begin(256000);
+Serial.println("--- Radar Initialization ---");
+digitalWrite(EN, HIGH);
+
+
+}
+
+void stopCutter() {
+analogWrite(EN,LOW);
+analogWrite(RPWM,0);
+analogWrite(LPWM,0);
+Serial.println("Stopped: Obstacle too close");
+delay(10);
+analogWrite(EN,HIGH);
+analogWrite(RPWM,0);
+analogWrite(LPWM,1);
+delay(15);
+}
+
+void steerR(){
+
+  int alrR = (false);
+
+do{
+  for (pos = 0; pos <= (90); pos += 10) { // goes from 0 degrees to 180 degrees
+    // in steps of 1 degree
+    steeringServo.write(pos);              // tell servo to go to position in variable 'pos'
+    analogWrite(RPWM,1);
+    delay(15);                       // waits 15ms for the servo to reach the position
+    alrR = (true);
+
+  }
+} while(RPWM == HIGH);
+}
+
+void steerL(){
+
+  int alrL = (false);
+
+do{
+  for (pos = 0; pos <= (90); pos += 10) { // goes from 0 degrees to 180 degrees
+    // in steps of 1 degree
+    steeringServo.write(pos);              // tell servo to go to position in variable 'pos'
+    analogWrite(LPWM,1);
+    delay(15);                       // waits 15ms for the servo to reach the position
+    alrL = (true);
+
+  }
+} while(RPWM == HIGH);
+}
+
+void loop() {
+
+//Reading boundaries with the IR sensors.
+int IRstatus = digitalRead('IR'); 
+if (IRstatus == LOW){
+  digitalWrite( RPWM, LOW);
+}
+
+
+ /*if (radar.check()) {
+ uint16_t movingDist = radar.movingTargetDistance();
+ uint16_t staticDist = radar.stationaryTargetDistance();
+ uint8_t movingEnergy = radar.movingTargetSignal();
+ uint8_t staticEnergy = radar.stationaryTargetSignal();
+
+ if ((staticDist > 0 && staticDist < 3) || (movingDist > 0 && movingDist < 100)) {
+ if (staticEnergy > 40 || movingEnergy > 40) {
+ Serial.print("Obstacle: ");
+ Serial.println(staticDist > 0 ? staticDist : movingDist);
+
+
+ 
+}
+}
+}*/
+
+if (radar.check()) {
+uint16_t staticDist = radar.stationaryTargetDistance();
+uint8_t staticEnergy = radar.stationaryTargetSignal();
+
+ if (staticDist > 0 && staticDist < 50 && staticEnergy > 40) {
+ stopCutter(); steerR();
+ } else {
+ analogWrite(RPWM, 450);
+ analogWrite(cut, 300);
+ digitalWrite(EN, HIGH);
+ }
+ delay(500);
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Reading current load of drive motor
+int motorLoad = analogRead(IRS);
+if (motorLoad>800) {
+  digitalWrite(RPWM && LPWM, LOW);
+}
+
+int direction = digitalRead(RPWM||LPWM);
+if (RPWM == HIGH) {
+  digitalWrite(LPWM, LOW);
+  }
+  else if (LPWM == HIGH) {
+  digitalWrite(RPWM,LOW);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+/*servo
+do{
+  for (pos = 0; pos <= (180); pos += 10) { // goes from 0 degrees to 180 degrees
+    // in steps of 1 degree
+    steeringServo.write(pos);              // tell servo to go to position in variable 'pos'
+    delay(15);                       // waits 15ms for the servo to reach the position
+  
+  }
+} while(RPWM == HIGH);
+*/
+}
+
+
