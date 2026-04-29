@@ -28,13 +28,10 @@ This robot will be able to cut through grass and weeds easily, with almost no hu
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Full Assembly:
 
-<img width="370" height="296" alt="Full Assembly" src="https://github.com/user-attachments/assets/70cddd2e-db3a-4946-b3c6-14ae653a5b2b" />
+<img width="389" height="312" alt="whole assembly" src="https://github.com/user-attachments/assets/31e77621-53b4-4084-9703-1eccf5dfa0a5" />
+<img width="462" height="327" alt="no front lid" src="https://github.com/user-attachments/assets/aa0271e8-fe10-4146-a46f-8f4ecb993494" />
+<img width="429" height="281" alt="bottom " src="https://github.com/user-attachments/assets/c0441136-8116-4613-b4e8-a2dfd9172020" />
 
-
-<img width="387" height="298" alt="bottom " src="https://github.com/user-attachments/assets/eead95da-fc34-4b2a-9953-bb3b81a748b7" />
-
-
-<img width="401" height="277" alt="no front lid" src="https://github.com/user-attachments/assets/e2861dfe-b36e-4c37-adfd-84963e5aba95" />
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
