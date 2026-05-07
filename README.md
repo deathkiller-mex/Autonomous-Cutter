@@ -1,4 +1,6 @@
 # Autonomous-Cutter
+
+Homeowners struggle to maintain and upkeep their front and back yard landscaping. Depending on the location, tall grass, weeds, or dirt can become overwhelming. Maintaining a clean and presentable yard is essential for both aesthetic appeal and safety. According to Tom Bradford, an Assistive Technology Specialist & Senior Mobility Consultant, the demand for yard work assistance is high among those 75 or older. This is the problem I intend to solve by creating an autonomous grass cutter that requires little to no human intervention to give back some independence to the elderly, disabled, and people in general who need this.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Building
