@@ -58,6 +58,22 @@ This robot will be able to cut through grass and weeds easily, with almost no hu
 
 # What for?
 
-1.
-
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1. LM2596	steps down power for Arduino and sensors.
+2. Wire to connect everything.
+3. Battery 3S 5000mAh 30C XT60 to effectively power everything.
+4. Screw Set M2-M3, to put everything together tightly.	
+5. Wheel for movement.
+6. B3 Compact Charger to safely charge the battery.
+7. XL4015 5A to step down power for the servo motor.
+9. IR Receiver + IR LED 940nm	to set small boundaries like gates or near decorative plants.
+10. A 40A fuse to	protect the circuits if the motors generate too much current.
+11. A metal wire 2mm that would work as the cutting "blade."
+12. MOSFET Switch Module to control the cutter motor.
+13. Arduino UNO for the	brain
+14. DRV BTS7960 43A H-bridge to control the drive motor (movement).
+15. Metal tube, to connect both drive wheels.
+16. HLK-LD2410 RADAR to detect obstacles and set boundaries.
+17. Threaded insert set M2-M3	to attach firmly all the screws.
+18. DC Motor 1200RPM to cut grass and weeds.
+19. DC Motor 12V 40rpm to move the cutter.
+20. Metal Servo 40kg high torque to steer the cutter.
