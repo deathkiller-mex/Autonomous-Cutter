@@ -30,12 +30,6 @@ This robot will be able to cut through grass and weeds easily, with almost no hu
 <img width="277" height="308" alt="2try pcb" src="https://github.com/user-attachments/assets/d1dfb893-b577-4893-a710-2d0bf398c07a" />
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# What for?
-
-1.
-
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 
 # BOM: 
 
@@ -61,3 +55,9 @@ This robot will be able to cut through grass and weeds easily, with almost no hu
 |LM2596|1|$2.09|[Aliexpress](https://www.aliexpress.us/item/3256810213721988.html?spm=a2g0o.cart.0.0.16ea38daOyiKxM&mp=1&pdp_npi=6%40dis%21USD%21USD%204.11%21USD%202.05%21%21USD%202.05%21%21%21%402103123917720659374931968ea89f%2112000052283934355%21ct%21US%216359134517%21%211%210%21&gatewayAdapt=glo2usa)|
 |Wire|1|$4.62|[Aliexpress](https://www.aliexpress.us/item/3256804149903490.html?spm=a2g0o.cart.0.0.401b38daB6o3wp&mp=1&pdp_npi=6%40dis%21USD%21USD+4.74%21USD+4.62%21%21USD+4.34%21%21%21%40210311cc17774309418986933e81d8%2112000028806929678%21ct%21US%216359134517%21%211%210%21&_gl=1*1h2ostc*_gcl_aw*R0NMLjE3NzQyMjcxNzQuQ2owS0NRandwdjdOQmhDekFSSXNBRGtJZld5eEVOQUgtU2FoVHQ1Y2duMmdPMHRTT0FKM2NHcXRpcXlGVndwNWJVcVpGZFZLaVVjUFdGNGFBbWcwRUFMd193Y0I.*_gcl_au*MjI4NzYxMjAzLjE3NzE4MjA5OTU.*_ga*NzEzMTgyMTIzLjE3NzY5MTYyOTY.*_ga_VED1YSGNC7*czE3Nzc0Mjg1MDUkbzMkZzEkdDE3Nzc0MzEzMTEkajMzJGwwJGgw&gatewayAdapt=glo2usa)|
 |Total|   |$171.66|    |
+
+# What for?
+
+1.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
