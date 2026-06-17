@@ -29,7 +29,9 @@ This robot will be able to cut through grass and weeds easily, with almost no hu
 
 <img width="277" height="308" alt="2try pcb" src="https://github.com/user-attachments/assets/d1dfb893-b577-4893-a710-2d0bf398c07a" />
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+This custom PCB is pretty much optional, as its only job is to facilitate powering all the components as well as soldering the fuse.
+
+-----------------------------------------------------------------------------------------------------------------------------
 
 # BOM: 
 
